@@ -3,8 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 h1{
     text-align: center;
+    color: white;
 }
 .container{
     width: 100vw;
@@ -15,12 +19,13 @@ h1{
     flex-shrink: 0;
 }
 .colorBox{
-    border: 1px solid black;
     width: 300px;
     height: 150px;
-    color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
     margin: 5px;
-    border-radius: 8px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
